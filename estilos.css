@@ -1,0 +1,152 @@
+/* Estilo general */
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background: #f5f3f0;
+  color: #333;
+  margin: 0;
+  padding: 0;
+}
+
+/* Títulos */
+h1 {
+  text-align: center;
+  margin-top: 20px;
+  color: #4e1f0c;
+  font-size: 40px;
+}
+
+h2 {
+  color: #8b3f1f;
+  margin-top: 40px;
+  text-align: center;
+  font-size: 28px;
+}
+
+/* Párrafos */
+p {
+  text-align: center;
+  font-size: 18px;
+  line-height: 1.6;
+  margin: 10px auto;
+  width: 80%;
+}
+
+/* Imagen */
+img {
+  display: block;
+  margin: 20px auto;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.3);
+}
+
+/* Secciones generales */
+section, #extra-info {
+  margin: 40px auto;
+  padding: 20px;
+  width: 85%;
+  background: #fff;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+}
+
+/* Listas */
+ul {
+  width: 60%;
+  margin: auto;
+  list-style: square;
+}
+
+li {
+  font-size: 18px;
+  margin: 8px 0;
+}
+
+/* Enlaces */
+a {
+  color: #c48f3b;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/* Botón */
+button, input[type="submit"] {
+  display: block;
+  margin: 20px auto;
+  padding: 12px 25px;
+  background: #4e1f0c;
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  font-size: 18px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+button:hover, input[type="submit"]:hover {
+  background: #814625;
+}
+
+/* Video y audio */
+video, audio {
+  display: block;
+  margin: 20px auto;
+  border-radius: 10px;
+}
+
+/* Formulario */
+form {
+  width: 80%;
+  margin: auto;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+  width: 100%;
+  padding: 10px;
+  border-radius: 6px;
+  border: 1px solid #8b3f1f;
+  font-size: 16px;
+}
+
+textarea {
+  resize: none;
+}
+
+/* Tabla */
+table {
+  width: 80%;
+  margin: auto;
+  border-collapse: collapse;
+  font-size: 18px;
+}
+
+table th {
+  background: #4e1f0c;
+  color: #fff;
+  padding: 12px;
+}
+
+table td {
+  padding: 12px;
+  background: #f1e5dd;
+  border: 1px solid #c9b2a8;
+}
+
+table tr:hover td {
+  background: #e2c7b9;
+}
+
+/* Footer */
+footer {
+  background: #4e1f0c;
+  color: #fff;
+  text-align: center;
+  padding: 15px 0;
+  margin-top: 40px;
+  font-size: 16px;
+}
